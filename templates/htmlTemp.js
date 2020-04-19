@@ -13,7 +13,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <style>
                 body {
-                    background-color:bisque;
+                    background-color:black;          
                     background-size: 100% 100%;
                     background-repeat: no-repeat;
                     margin: 0%;
@@ -21,12 +21,12 @@
                 }
         
                 .header {
-                    background-color:burlywood;
+                    background-color:white;
                     border: solid white;
                     text-align: center;
-                    font-size: 20px;
+                    font-size: 60px;
                     font-family:'Roboto Slab', serif;
-                    margin-top: 20px;
+                    margin-top: 10px;
                 }
         
                 .container-body {
@@ -37,7 +37,7 @@
                 .card {
                     background-color: rgb(255, 255, 255);
                     margin-top: 10%;
-                    border: solid 10px burlywood;
+                    border: grey;
                     font-size: x-large;
                 }
         
@@ -86,7 +86,7 @@
         return `<div class="card">
 <div class="card-header">
     <h2>${obj.name}</h2>  
-    <h2><i class="fa fa-spinner fa-pulse"></i> ${obj.title}</h2>
+    <h2> <i class="fa fa-id-card-o" aria-hidden="true"></i> ${obj.title}</h2>
     <hr>
 </div>
 <div class="card-body">
