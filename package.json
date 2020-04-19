@@ -1,0 +1,29 @@
+{
+  "name": "teamgeneratorhw",
+  "version": "1.0.0",
+  "description": "hw",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "util": "^0.12.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatimaromagnoli/teamprofilegenerator.git"
+  },
+  "author": "fatimaromagnoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatimaromagnoli/teamprofilegenerator/issues"
+  },
+  "homepage": "https://github.com/fatimaromagnoli/teamprofilegenerator#readme"
+}
